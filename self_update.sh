@@ -18,4 +18,5 @@ curl -s -L "$script_url" >$temp_file
 
 checksum_of_downloaded_file=$(md5sum "$tmp_file" | awk '{print $1}')
 
+##########################################################################
 
